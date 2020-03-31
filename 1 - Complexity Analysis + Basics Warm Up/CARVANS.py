@@ -3,6 +3,8 @@ def max_speed(a):
   for j in range(1, len(a)):
     if(a[j]<a[j-1]):
       count+=1
+    else:
+      arr[j] = arr[j-1]
   return count
 
 test = int(input())
