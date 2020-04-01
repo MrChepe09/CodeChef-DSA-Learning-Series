@@ -2,7 +2,6 @@ def ladoo_month(p, nation):
   if(nation=='INDIAN'):
     return int(p/200)
   else:
-    while(p>400):
     return int(p/400)
 
 test = int(input())
